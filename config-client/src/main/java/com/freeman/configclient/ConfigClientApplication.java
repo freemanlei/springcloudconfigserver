@@ -20,7 +20,7 @@ public class ConfigClientApplication {
         return foo;
     }
 
-    @Value("${server.port}")
+    @Value("${server.port1}")
     String port;
     @RequestMapping(value = "/port")
     public String port(){
